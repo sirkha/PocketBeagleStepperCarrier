@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDC6420C
+D 20V Vds, 3.0A/-2.2A Id, 70mOhm/125mOhm Rds, Dual N & P-Channel MOSFET, SC-70-6
+K N & P-Channel MOSFET PowerTrench MOSFETS
+F http://www.onsemi.com/pub/Collateral/FDC6420C-D.pdf
+$ENDCMP
+#
+#End Doc Library
