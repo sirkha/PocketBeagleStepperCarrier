@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.20>
 <Properties>
-  <View=-361,20,1539,954,1,42,0>
+  <View=-361,20,1539,954,1,0,0>
   <Grid=10,10,0>
   <DataSet=fault_supply.dat>
   <DataDisplay=fault_supply.sch>
@@ -20,11 +20,11 @@
 <Wires>
 </Wires>
 <Diagrams>
-  <Rect -119 804 1141 744 3 #c0c0c0 1 00 1 0 0.02 0.48 1 -0.338925 0.2 3.63148 1 -0.0005 0.0001 0.0006 315 0 225 "time" "" "">
-	<"ngspice/tran.v(pilotgate)@time" #0000ff 0 3 0 0 0>
+  <Rect -119 804 1141 744 3 #c0c0c0 1 00 1 0 0.02 0.48 1 -0.4 0.2 3.84937 1 -0.0006 0.0002 0.00247833 315 0 225 "time" "" "">
+	<"ngspice/tran.v(pilotgate)@time" #0000ff 4 3 0 0 0>
 	<"ngspice/tran.v(bbpin)@time" #ff0000 0 3 0 0 0>
 	<"ngspice/tran.v(powergate)@time" #ff00ff 0 3 0 0 0>
-	<"ngspice/tran.v(pin2)@time" #00ff00 0 3 0 0 0>
+	<"ngspice/tran.v(pin2)@time" #00ff00 4 3 0 0 0>
 	<"ngspice/tran.v(fault)@time" #ffff00 0 3 0 0 0>
 	<"ngspice/tran.i(vbbsync)" #ff5500 0 3 0 0 1>
 	<"ngspice/tran.i(vfltsync)" #55007f 0 3 0 0 1>
