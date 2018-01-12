@@ -1,4 +1,4 @@
-update=Thu 11 Jan 2018 03:51:51 AM MST
+update=Thu 11 Jan 2018 04:37:43 AM MST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=../Libraries
@@ -72,6 +62,6 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=modules
-LibName34=allegro
+LibName34=IC
 LibName35=dc-dc
-LibName36=IC
+LibName36=allegro

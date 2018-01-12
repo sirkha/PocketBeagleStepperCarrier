@@ -1,0 +1,139 @@
+BILL OF MATERIALS 
+------------------
+
+- [ ] D Schottky:
+
+  - [ ] 2x SK34A
+
+- [ ] ACS712ELCTR-05B-T:
+
+  - [ ] 2x ACS712ELCTR-05B-T
+
+- [ ] LM2576HVS-ADJ:
+
+  - [ ] 2x LM2576HVS-ADJ
+
+- [ ] TPD4S012:
+
+  - [ ] 1x TPD4S012
+
+- [ ] FDG1024NZ:
+
+  - [ ] 1x FDG1024NZ
+
+- [ ] Conn 02x04 Counter Clockwise:
+
+  - [ ] 2x 02x04
+
+- [ ] Conn 01x03:
+
+  - [ ] 4x 01x03
+
+  - [ ] 1x Conn 01x03
+
+- [ ] Conn 01x02:
+
+  - [ ] 6x 01x02
+
+- [ ] USB OTG:
+
+  - [ ] 1x USB OTG
+
+- [ ] Pololu Breakout A4988:
+
+  - [ ] 2x Pololu Breakout A4988
+
+- [ ] Conn 01x04:
+
+  - [ ] 3x 01x04
+
+  - [ ] 1x 01x04-1V8
+
+  - [ ] 1x 01x04-3v3
+
+- [ ] 24LC256:
+
+  - [ ] 1x 24LC256
+
+- [ ] Pololu Breakout DRV8834:
+
+  - [ ] 2x Pololu Breakout DRV8834
+
+- [ ] PocketBeagle:
+
+  - [ ] 1x PocketBeagle
+
+- [ ] POT:
+
+  - [ ] 1x 50K
+
+- [ ] Pololu Breakout DRV8825:
+
+  - [ ] 2x Pololu Breakout DRV8825
+
+- [ ] Pololu Breakout DRV8880:
+
+  - [ ] 2x Pololu Breakout DRV8880
+
+- [ ] C Small:
+
+  - [ ] 1x .1uF
+
+  - [ ] 2x 100nF
+
+  - [ ] 2x 1nF
+
+- [ ] Fuse Small:
+
+  - [ ] 2x Fuse
+
+- [ ] L:
+
+  - [ ] 2x 100uH
+
+- [ ] R:
+
+  - [ ] 5x 12K
+
+  - [ ] 3x 1K2
+
+  - [ ] 2x 22
+
+  - [ ] 1x 3.9K
+
+  - [ ] 1x Rsel
+
+- [ ] Screw Terminal 01x04:
+
+  - [ ] 1x 4PostTerm
+
+- [ ] Jumper NO Small:
+
+  - [ ] 4x JPNO
+
+- [ ] Screw Terminal 01x02:
+
+  - [ ] 2x 2PostTerm
+
+- [ ] FDC6420C:
+
+  - [ ] 3x FDC6420C
+
+- [ ] Jumper NC Small:
+
+  - [ ] 4x JPNC
+
+  - [ ] 2x Jmp
+
+  - [ ] 1x Jumper
+
+- [ ] CP1:
+
+  - [ ] 2x 1000uF
+
+  - [ ] 2x 100uF
+
+- [ ] R Pack04:
+
+  - [ ] 6x 1K2
+
