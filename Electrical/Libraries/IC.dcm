@@ -6,4 +6,10 @@ K N & P-Channel MOSFET PowerTrench MOSFETS
 F http://www.onsemi.com/pub/Collateral/FDC6420C-D.pdf
 $ENDCMP
 #
+$CMP TPD4S012
+D TPD4S012 4-Channel USB ESD Solution with Power Clamp
+K TPD4S012 4-Channel USB ESD Power Clamp
+F http://www.ti.com/lit/gpn/tpd4s012
+$ENDCMP
+#
 #End Doc Library
