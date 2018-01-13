@@ -309,7 +309,7 @@ U 1 1 5A50A269
 P 6200 3250
 F 0 "J208" H 6200 3350 50  0000 C CNN
 F 1 "01x02" V 6300 3200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 6200 3250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6200 3250 50  0001 C CNN
 F 3 "" H 6200 3250 50  0001 C CNN
 	1    6200 3250
 	0    1    1    0   
@@ -544,7 +544,7 @@ U 1 1 5A55D5E8
 P 3150 1400
 F 0 "J201" H 3400 1350 50  0000 C CNN
 F 1 "01x02" V 3250 1350 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 3150 1400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3150 1400 50  0001 C CNN
 F 3 "" H 3150 1400 50  0001 C CNN
 	1    3150 1400
 	1    0    0    -1  
@@ -555,7 +555,7 @@ U 1 1 5A561B2B
 P 3950 6850
 F 0 "J204" H 3950 7050 50  0000 C CNN
 F 1 "01x04" V 4050 6800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 3950 6850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 3950 6850 50  0001 C CNN
 F 3 "" H 3950 6850 50  0001 C CNN
 	1    3950 6850
 	1    0    0    -1  
@@ -584,7 +584,7 @@ U 1 1 5A56703F
 P 3200 5050
 F 0 "J202" H 3200 5250 50  0000 C CNN
 F 1 "01x04" V 3300 5000 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 3200 5050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 3200 5050 50  0001 C CNN
 F 3 "" H 3200 5050 50  0001 C CNN
 	1    3200 5050
 	1    0    0    -1  
@@ -662,7 +662,7 @@ U 1 1 5A5701C7
 P 3100 7300
 F 0 "JP201" V 3100 7450 50  0000 L CNN
 F 1 "01x04" V 3200 7250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 3100 7300 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 3100 7300 50  0001 C CNN
 F 3 "" H 3100 7300 50  0001 C CNN
 	1    3100 7300
 	0    1    1    0   
@@ -772,7 +772,7 @@ U 1 1 5A57D7BA
 P 4900 6800
 F 0 "J207" H 4900 7000 50  0000 C CNN
 F 1 "01x04" V 5000 6750 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 4900 6800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4900 6800 50  0001 C CNN
 F 3 "" H 4900 6800 50  0001 C CNN
 	1    4900 6800
 	-1   0    0    -1  
@@ -783,7 +783,7 @@ U 1 1 5A57DB50
 P 6600 7400
 F 0 "J209" H 6600 7600 50  0000 C CNN
 F 1 "01x04" V 6700 7350 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 6600 7400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 6600 7400 50  0001 C CNN
 F 3 "" H 6600 7400 50  0001 C CNN
 	1    6600 7400
 	1    0    0    -1  
@@ -891,7 +891,7 @@ U 1 1 5A56BB36
 P 6950 950
 F 0 "J210" H 6950 1050 50  0000 C CNN
 F 1 "01x02" V 7050 900 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 6950 950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6950 950 50  0001 C CNN
 F 3 "" H 6950 950 50  0001 C CNN
 	1    6950 950 
 	1    0    0    -1  
@@ -1007,7 +1007,7 @@ U 1 1 5A5787B1
 P 7250 3250
 F 0 "J211" H 7250 3350 50  0000 C CNN
 F 1 "01x02" V 7350 3200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 7250 3250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7250 3250 50  0001 C CNN
 F 3 "" H 7250 3250 50  0001 C CNN
 	1    7250 3250
 	0    1    1    0   
@@ -1721,7 +1721,7 @@ U 1 1 5A59E717
 P 4000 6150
 F 0 "J205" H 4000 6350 50  0000 C CNN
 F 1 "01x03" V 4100 6150 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 4000 6150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4000 6150 50  0001 C CNN
 F 3 "" H 4000 6150 50  0001 C CNN
 	1    4000 6150
 	1    0    0    -1  
@@ -1732,7 +1732,7 @@ U 1 1 5A59EF30
 P 3500 4300
 F 0 "J203" H 3500 4500 50  0000 C CNN
 F 1 "01x03" V 3600 4300 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 3500 4300 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3500 4300 50  0001 C CNN
 F 3 "" H 3500 4300 50  0001 C CNN
 	1    3500 4300
 	1    0    0    -1  
@@ -1886,7 +1886,7 @@ U 1 1 5A595DFB
 P 6300 6200
 F 0 "JP209" H 6350 6400 50  0000 C CNN
 F 1 "02x04" H 6350 5900 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x04_Pitch2.54mm" H 6300 6200 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 6300 6200 50  0001 C CNN
 F 3 "" H 6300 6200 50  0001 C CNN
 	1    6300 6200
 	1    0    0    -1  
@@ -1897,7 +1897,7 @@ U 1 1 5A5964F5
 P 6200 5100
 F 0 "JP208" H 6250 5300 50  0000 C CNN
 F 1 "02x04" H 6250 4800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x04_Pitch2.54mm" H 6200 5100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 6200 5100 50  0001 C CNN
 F 3 "" H 6200 5100 50  0001 C CNN
 	1    6200 5100
 	1    0    0    -1  

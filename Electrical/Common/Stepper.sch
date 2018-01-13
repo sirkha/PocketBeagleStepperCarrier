@@ -236,7 +236,7 @@ AR Path="/5A5956FB/5A57FC8C" Ref="JP501"  Part="1"
 AR Path="/5A597FFD/5A57FC8C" Ref="JP601"  Part="1" 
 F 0 "JP401" H 1850 1350 50  0000 C CNN
 F 1 "01x03" H 1850 950 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 1850 1150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1850 1150 50  0001 C CNN
 F 3 "" H 1850 1150 50  0001 C CNN
 	1    1850 1150
 	1    0    0    -1  
@@ -310,7 +310,7 @@ AR Path="/5A5956FB/5A57FC8D" Ref="JP503"  Part="1"
 AR Path="/5A597FFD/5A57FC8D" Ref="JP603"  Part="1" 
 F 0 "JP403" H 9850 1150 50  0000 C CNN
 F 1 "01x02" H 9850 850 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 9850 1050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9850 1050 50  0001 C CNN
 F 3 "" H 9850 1050 50  0001 C CNN
 	1    9850 1050
 	1    0    0    -1  
