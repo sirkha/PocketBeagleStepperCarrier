@@ -35,6 +35,7 @@ LIBS:modules
 LIBS:IC
 LIBS:dc-dc
 LIBS:allegro
+LIBS:mechanical
 LIBS:Dual-cache
 EELAYER 25 0
 EELAYER END
@@ -130,17 +131,17 @@ Text Label 2400 3700 0    60   ~ 0
 gpio3_20
 Text Notes 3900 800  0    200  ~ 0
 UART
-Text Notes 600  4850 0    200  ~ 0
+Text Notes 500  6400 0    200  ~ 0
 GPIO
 Text Notes 5300 800  0    200  ~ 0
 SPI
 Text Notes 8900 800  0    200  ~ 0
 Servo
 $Comp
-L Conn_01x04 J109
+L Conn_01x04 J110
 U 1 1 5A5826B5
 P 9100 2100
-F 0 "J109" H 9100 2300 50  0000 C CNN
+F 0 "J110" H 9100 2300 50  0000 C CNN
 F 1 "01x04" V 9200 2050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 9100 2100 50  0001 C CNN
 F 3 "" H 9100 2100 50  0001 C CNN
@@ -165,10 +166,10 @@ F 3 "" H 9700 1600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Conn_01x04 J110
+L Conn_01x04 J111
 U 1 1 5A58BDA6
 P 9100 2600
-F 0 "J110" H 9100 2800 50  0000 C CNN
+F 0 "J111" H 9100 2800 50  0000 C CNN
 F 1 "01x04" V 9200 2550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 9100 2600 50  0001 C CNN
 F 3 "" H 9100 2600 50  0001 C CNN
@@ -176,10 +177,10 @@ F 3 "" H 9100 2600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J111
+L Conn_01x04 J112
 U 1 1 5A58C0B6
 P 9100 3100
-F 0 "J111" H 9100 3300 50  0000 C CNN
+F 0 "J112" H 9100 3300 50  0000 C CNN
 F 1 "01x04" V 9200 3050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 9100 3100 50  0001 C CNN
 F 3 "" H 9100 3100 50  0001 C CNN
@@ -187,10 +188,10 @@ F 3 "" H 9100 3100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J112
+L Conn_01x04 J113
 U 1 1 5A58C2BC
 P 9100 3600
-F 0 "J112" H 9100 3800 50  0000 C CNN
+F 0 "J113" H 9100 3800 50  0000 C CNN
 F 1 "01x04" V 9200 3550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 9100 3600 50  0001 C CNN
 F 3 "" H 9100 3600 50  0001 C CNN
@@ -239,7 +240,7 @@ U 1 1 5A58F027
 P 10400 2000
 F 0 "JP101" H 10425 2075 50  0000 C CNN
 F 1 "JPNC" H 10410 1940 50  0001 C CNN
-F 2 "footprints:JPNC" H 10400 2000 50  0001 C CNN
+F 2 "footprints:JPNC_Large" H 10400 2000 50  0001 C CNN
 F 3 "" H 10400 2000 50  0001 C CNN
 	1    10400 2000
 	1    0    0    -1  
@@ -250,7 +251,7 @@ U 1 1 5A58F2F3
 P 10800 2000
 F 0 "JP105" H 10775 2075 50  0000 C CNN
 F 1 "JPNO" H 10810 1940 50  0001 C CNN
-F 2 "footprints:JPNO" H 10800 2000 50  0001 C CNN
+F 2 "footprints:JPNO_Large" H 10800 2000 50  0001 C CNN
 F 3 "" H 10800 2000 50  0001 C CNN
 	1    10800 2000
 	1    0    0    -1  
@@ -261,7 +262,7 @@ U 1 1 5A58F70F
 P 10400 2500
 F 0 "JP102" H 10425 2575 50  0000 C CNN
 F 1 "JPNC" H 10410 2440 50  0001 C CNN
-F 2 "footprints:JPNC" H 10400 2500 50  0001 C CNN
+F 2 "footprints:JPNC_Large" H 10400 2500 50  0001 C CNN
 F 3 "" H 10400 2500 50  0001 C CNN
 	1    10400 2500
 	1    0    0    -1  
@@ -272,7 +273,7 @@ U 1 1 5A58F715
 P 10800 2500
 F 0 "JP106" H 10775 2575 50  0000 C CNN
 F 1 "JPNO" H 10810 2440 50  0001 C CNN
-F 2 "footprints:JPNO" H 10800 2500 50  0001 C CNN
+F 2 "footprints:JPNO_Large" H 10800 2500 50  0001 C CNN
 F 3 "" H 10800 2500 50  0001 C CNN
 	1    10800 2500
 	1    0    0    -1  
@@ -283,7 +284,7 @@ U 1 1 5A58FB7B
 P 10400 3000
 F 0 "JP103" H 10425 3075 50  0000 C CNN
 F 1 "JPNC" H 10410 2940 50  0001 C CNN
-F 2 "footprints:JPNC" H 10400 3000 50  0001 C CNN
+F 2 "footprints:JPNC_Large" H 10400 3000 50  0001 C CNN
 F 3 "" H 10400 3000 50  0001 C CNN
 	1    10400 3000
 	1    0    0    -1  
@@ -294,7 +295,7 @@ U 1 1 5A58FB81
 P 10800 3000
 F 0 "JP107" H 10775 3075 50  0000 C CNN
 F 1 "JPNO" H 10810 2940 50  0001 C CNN
-F 2 "footprints:JPNO" H 10800 3000 50  0001 C CNN
+F 2 "footprints:JPNO_Large" H 10800 3000 50  0001 C CNN
 F 3 "" H 10800 3000 50  0001 C CNN
 	1    10800 3000
 	1    0    0    -1  
@@ -305,7 +306,7 @@ U 1 1 5A58FD02
 P 10400 3500
 F 0 "JP104" H 10425 3575 50  0000 C CNN
 F 1 "JPNC" H 10410 3440 50  0001 C CNN
-F 2 "footprints:JPNC" H 10400 3500 50  0001 C CNN
+F 2 "footprints:JPNC_Large" H 10400 3500 50  0001 C CNN
 F 3 "" H 10400 3500 50  0001 C CNN
 	1    10400 3500
 	1    0    0    -1  
@@ -316,7 +317,7 @@ U 1 1 5A58FD08
 P 10800 3500
 F 0 "JP108" H 10775 3575 50  0000 C CNN
 F 1 "JPNO" H 10810 3440 50  0001 C CNN
-F 2 "footprints:JPNO" H 10800 3500 50  0001 C CNN
+F 2 "footprints:JPNO_Large" H 10800 3500 50  0001 C CNN
 F 3 "" H 10800 3500 50  0001 C CNN
 	1    10800 3500
 	1    0    0    -1  
@@ -324,10 +325,10 @@ $EndComp
 Text Notes 6300 800  0    200  ~ 0
 PWM (AOUT)
 $Comp
-L Conn_01x04 J108
+L Conn_01x04 J103
 U 1 1 5A590A3D
 P 7500 1300
-F 0 "J108" H 7500 1500 50  0000 C CNN
+F 0 "J103" H 7500 1500 50  0000 C CNN
 F 1 "01x04" V 7600 1250 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 7500 1300 50  0001 C CNN
 F 3 "" H 7500 1300 50  0001 C CNN
@@ -343,10 +344,10 @@ ehrpwm1A
 Text Label 7300 1200 2    60   ~ 0
 ehrpwm2B
 $Comp
-L Conn_01x04 J103
+L Conn_01x04 J101
 U 1 1 5A591A72
 P 4500 1400
-F 0 "J103" H 4500 1600 50  0000 C CNN
+F 0 "J101" H 4500 1600 50  0000 C CNN
 F 1 "01x04" V 4600 1350 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4500 1400 50  0001 C CNN
 F 3 "" H 4500 1400 50  0001 C CNN
@@ -367,23 +368,12 @@ F 3 "" H 4300 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x10_Female J102
-U 1 1 5A592B83
-P 3800 5500
-F 0 "J102" H 3800 6000 50  0000 C CNN
-F 1 "01x10" H 3800 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 3800 5500 50  0001 C CNN
-F 3 "" H 3800 5500 50  0001 C CNN
-	1    3800 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Odd_Even J105
+L Conn_02x04_Odd_Even J102
 U 1 1 5A594950
 P 5600 1300
-F 0 "J105" H 5650 1500 50  0000 C CNN
+F 0 "J102" H 5650 1500 50  0000 C CNN
 F 1 "02x04" H 5650 1000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 5600 1300 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 5600 1300 50  0001 C CNN
 F 3 "" H 5600 1300 50  0001 C CNN
 	1    5600 1300
 	1    0    0    -1  
@@ -409,105 +399,26 @@ Text Label 5400 1200 2    60   ~ 0
 spi1_d1
 Text Label 5400 1400 2    60   ~ 0
 spi1_sclk
-Text Label 1200 5025 2    60   ~ 0
+Text Label 1200 7000 0    60   ~ 0
 gpio1_12
-Text Label 1200 5125 2    60   ~ 0
+Text Label 1800 7000 0    60   ~ 0
 gpio1_13
-Text Label 1200 5225 2    60   ~ 0
+Text Label 2400 7000 0    60   ~ 0
 gpio1_14
-Text Label 1200 5325 2    60   ~ 0
+Text Label 3000 7000 0    60   ~ 0
 gpio2_22
-Text Label 1200 5425 2    60   ~ 0
+Text Label 3600 7000 0    60   ~ 0
 gpio2_23
-Text Label 1200 5525 2    60   ~ 0
+Text Label 4200 7000 0    60   ~ 0
 gpio2_25
-Text Label 1200 5625 2    60   ~ 0
+Text Label 4700 7000 0    60   ~ 0
 gpio3_16
-Text Label 1200 5725 2    60   ~ 0
+Text Label 5300 7000 0    60   ~ 0
 gpio3_17
-Text Label 1200 5825 2    60   ~ 0
+Text Label 5900 7000 0    60   ~ 0
 gpio3_19
-Text Label 1200 5925 2    60   ~ 0
+Text Label 6500 7000 0    60   ~ 0
 gpio3_20
-$Comp
-L Conn_01x10_Female J107
-U 1 1 5A598664
-P 7400 5500
-F 0 "J107" H 7400 6000 50  0000 C CNN
-F 1 "01x10" H 7400 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 7400 5500 50  0001 C CNN
-F 3 "" H 7400 5500 50  0001 C CNN
-	1    7400 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x10_Female J101
-U 1 1 5A59874E
-P 2600 5500
-F 0 "J101" H 2600 6000 50  0000 C CNN
-F 1 "01x10" H 2600 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 2600 5500 50  0001 C CNN
-F 3 "" H 2600 5500 50  0001 C CNN
-	1    2600 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x10_Female J104
-U 1 1 5A59883D
-P 5000 5500
-F 0 "J104" H 5000 6000 50  0000 C CNN
-F 1 "01x10" H 5000 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 5000 5500 50  0001 C CNN
-F 3 "" H 5000 5500 50  0001 C CNN
-	1    5000 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x10_Female J106
-U 1 1 5A598931
-P 6200 5500
-F 0 "J106" H 6200 6000 50  0000 C CNN
-F 1 "01x10" H 6200 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 6200 5500 50  0001 C CNN
-F 3 "" H 6200 5500 50  0001 C CNN
-	1    6200 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x10_Female J113
-U 1 1 5A599734
-P 9400 5500
-F 0 "J113" H 9400 6000 50  0000 C CNN
-F 1 "01x10" H 9400 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 9400 5500 50  0001 C CNN
-F 3 "" H 9400 5500 50  0001 C CNN
-	1    9400 5500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Conn_01x10_Female J114
-U 1 1 5A59988E
-P 10600 5500
-F 0 "J114" H 10600 6000 50  0000 C CNN
-F 1 "01x10" H 10600 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 10600 5500 50  0001 C CNN
-F 3 "" H 10600 5500 50  0001 C CNN
-	1    10600 5500
-	-1   0    0    -1  
-$EndComp
-Text GLabel 10800 4800 0    60   Input ~ 0
-3V3S
-$Comp
-L GND #PWR05
-U 1 1 5A59A43C
-P 9600 6200
-F 0 "#PWR05" H 9600 5950 50  0001 C CNN
-F 1 "GND" H 9600 6050 50  0000 C CNN
-F 2 "" H 9600 6200 50  0001 C CNN
-F 3 "" H 9600 6200 50  0001 C CNN
-	1    9600 6200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 2000 9500 2000
 Wire Wire Line
@@ -575,288 +486,241 @@ Wire Wire Line
 	5900 1300 5900 1600
 Connection ~ 5900 1500
 Connection ~ 5900 1400
-Wire Wire Line
-	9600 5100 9600 6200
-Wire Wire Line
-	10800 4800 10800 6000
-Connection ~ 10800 5900
-Connection ~ 10800 5800
-Connection ~ 10800 5700
-Connection ~ 10800 5600
-Connection ~ 10800 5500
-Connection ~ 10800 5400
-Connection ~ 10800 5300
-Connection ~ 10800 5200
-Connection ~ 10800 5100
-Connection ~ 9600 5200
-Connection ~ 9600 5300
-Connection ~ 9600 5400
-Connection ~ 9600 5500
-Connection ~ 9600 5600
-Connection ~ 9600 5700
-Connection ~ 9600 5800
-Connection ~ 9600 5900
-Wire Wire Line
-	2400 5100 2400 5025
-Wire Wire Line
-	1200 5025 7200 5025
-Wire Wire Line
-	2400 5200 2300 5200
-Wire Wire Line
-	2300 5200 2300 5125
-Wire Wire Line
-	7200 5025 7200 5100
-Connection ~ 2400 5025
-Wire Wire Line
-	6000 5100 6000 5025
-Connection ~ 6000 5025
-Wire Wire Line
-	4800 5100 4800 5025
-Connection ~ 4800 5025
-Wire Wire Line
-	3600 5100 3600 5025
-Connection ~ 3600 5025
-Connection ~ 2300 5125
-Wire Wire Line
-	2400 5300 2200 5300
-Wire Wire Line
-	2200 5300 2200 5225
-Wire Wire Line
-	2400 5400 2100 5400
-Wire Wire Line
-	2100 5400 2100 5325
-Wire Wire Line
-	2400 5500 2000 5500
-Wire Wire Line
-	2000 5500 2000 5425
-Wire Wire Line
-	2400 5600 1900 5600
-Wire Wire Line
-	1900 5600 1900 5525
-Wire Wire Line
-	2400 5700 1800 5700
-Wire Wire Line
-	1800 5700 1800 5625
-Wire Wire Line
-	2400 5800 1700 5800
-Wire Wire Line
-	1700 5800 1700 5725
-Wire Wire Line
-	2400 5900 1600 5900
-Wire Wire Line
-	1600 5900 1600 5825
-Wire Wire Line
-	2400 6000 1475 6000
-Wire Wire Line
-	1475 6000 1475 5925
-Wire Wire Line
-	7200 5200 7100 5200
-Wire Wire Line
-	7100 5200 7100 5125
-Wire Wire Line
-	7200 5300 7000 5300
-Wire Wire Line
-	7000 5300 7000 5225
-Wire Wire Line
-	7000 5225 1200 5225
-Wire Wire Line
-	7200 5400 6900 5400
-Wire Wire Line
-	6900 5400 6900 5325
-Wire Wire Line
-	7200 5500 6800 5500
-Wire Wire Line
-	6800 5500 6800 5425
-Wire Wire Line
-	7200 5600 6700 5600
-Wire Wire Line
-	6700 5600 6700 5525
-Wire Wire Line
-	7200 5700 6600 5700
-Wire Wire Line
-	6600 5700 6600 5625
-Wire Wire Line
-	7200 5800 6500 5800
-Wire Wire Line
-	6500 5800 6500 5725
-Wire Wire Line
-	7200 5900 6400 5900
-Wire Wire Line
-	6400 5900 6400 5825
-Wire Wire Line
-	7200 6000 6275 6000
-Wire Wire Line
-	6275 6000 6275 5925
-Connection ~ 2200 5225
-Connection ~ 2100 5325
-Connection ~ 2000 5425
-Connection ~ 1900 5525
-Connection ~ 1800 5625
-Connection ~ 1700 5725
-Connection ~ 1600 5825
-Connection ~ 1475 5925
-Wire Wire Line
-	3600 5200 3500 5200
-Wire Wire Line
-	3500 5200 3500 5125
-Connection ~ 3500 5125
-Wire Wire Line
-	3600 5300 3400 5300
-Wire Wire Line
-	3400 5300 3400 5225
-Wire Wire Line
-	3600 5400 3300 5400
-Wire Wire Line
-	3300 5400 3300 5325
-Wire Wire Line
-	3600 5500 3200 5500
-Wire Wire Line
-	3200 5500 3200 5425
-Wire Wire Line
-	3600 5600 3100 5600
-Wire Wire Line
-	3100 5600 3100 5525
-Wire Wire Line
-	3600 5700 3000 5700
-Wire Wire Line
-	3000 5700 3000 5625
-Wire Wire Line
-	3600 5800 2900 5800
-Wire Wire Line
-	2900 5800 2900 5725
-Wire Wire Line
-	3600 5900 2800 5900
-Wire Wire Line
-	2800 5900 2800 5825
-Wire Wire Line
-	3600 6000 2675 6000
-Wire Wire Line
-	2675 6000 2675 5925
-Connection ~ 3400 5225
-Connection ~ 3300 5325
-Connection ~ 3200 5425
-Connection ~ 3100 5525
-Connection ~ 3000 5625
-Connection ~ 2900 5725
-Connection ~ 2800 5825
-Connection ~ 2675 5925
-Wire Wire Line
-	4800 5200 4700 5200
-Wire Wire Line
-	4700 5200 4700 5125
-Connection ~ 4700 5125
-Wire Wire Line
-	4800 5300 4600 5300
-Wire Wire Line
-	4600 5300 4600 5225
-Wire Wire Line
-	4800 5400 4500 5400
-Wire Wire Line
-	4500 5400 4500 5325
-Wire Wire Line
-	4800 5500 4400 5500
-Wire Wire Line
-	4400 5500 4400 5425
-Wire Wire Line
-	4800 5600 4300 5600
-Wire Wire Line
-	4300 5600 4300 5525
-Wire Wire Line
-	4800 5700 4200 5700
-Wire Wire Line
-	4200 5700 4200 5625
-Wire Wire Line
-	4800 5800 4100 5800
-Wire Wire Line
-	4100 5800 4100 5725
-Wire Wire Line
-	4800 5900 4000 5900
-Wire Wire Line
-	4000 5900 4000 5825
-Wire Wire Line
-	4800 6000 3875 6000
-Wire Wire Line
-	3875 6000 3875 5925
-Connection ~ 4600 5225
-Connection ~ 4500 5325
-Connection ~ 4400 5425
-Connection ~ 4300 5525
-Connection ~ 4200 5625
-Connection ~ 4100 5725
-Connection ~ 4000 5825
-Connection ~ 3875 5925
-Wire Wire Line
-	6000 5200 5900 5200
-Wire Wire Line
-	5900 5200 5900 5125
-Connection ~ 5900 5125
-Wire Wire Line
-	6000 5300 5800 5300
-Wire Wire Line
-	5800 5300 5800 5225
-Wire Wire Line
-	6000 5400 5700 5400
-Wire Wire Line
-	5700 5400 5700 5325
-Wire Wire Line
-	6000 5500 5600 5500
-Wire Wire Line
-	5600 5500 5600 5425
-Wire Wire Line
-	6000 5600 5500 5600
-Wire Wire Line
-	5500 5600 5500 5525
-Wire Wire Line
-	6000 5700 5400 5700
-Wire Wire Line
-	5400 5700 5400 5625
-Wire Wire Line
-	6000 5800 5300 5800
-Wire Wire Line
-	5300 5800 5300 5725
-Wire Wire Line
-	6000 5900 5200 5900
-Wire Wire Line
-	5200 5900 5200 5825
-Wire Wire Line
-	6000 6000 5075 6000
-Wire Wire Line
-	5075 6000 5075 5925
-Connection ~ 5800 5225
-Connection ~ 5700 5325
-Connection ~ 5600 5425
-Connection ~ 5500 5525
-Connection ~ 5400 5625
-Connection ~ 5300 5725
-Connection ~ 5200 5825
-Connection ~ 5075 5925
-Wire Wire Line
-	7100 5125 1200 5125
-Wire Wire Line
-	6900 5325 1200 5325
-Wire Wire Line
-	6800 5425 1200 5425
-Wire Wire Line
-	6700 5525 1200 5525
-Wire Wire Line
-	6600 5625 1200 5625
-Wire Wire Line
-	6500 5725 1200 5725
-Wire Wire Line
-	6400 5825 1200 5825
-Wire Wire Line
-	6275 5925 1200 5925
 Connection ~ 10900 2000
 Connection ~ 10900 2500
 Connection ~ 10900 3000
 Connection ~ 10300 3000
 Connection ~ 10300 2500
 Connection ~ 10300 2000
-Connection ~ 9600 6000
 Text Label 4300 1300 2    60   ~ 0
 uart4_rxd
 Text Label 4300 1400 2    60   ~ 0
 uart4_txd
 Wire Wire Line
 	4300 1200 4300 1100
+$Comp
+L Conn_01x03_Female J117
+U 1 1 5A5AE92B
+P 6700 7200
+F 0 "J117" H 6575 7400 50  0000 C CNN
+F 1 "01x03" V 6750 7200 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Blank" H 6700 7200 50  0001 C CNN
+F 3 "" H 6700 7200 50  0001 C CNN
+	1    6700 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5A5AF49D
+P 6800 7500
+F 0 "#PWR05" H 6800 7250 50  0001 C CNN
+F 1 "GND" H 6800 7350 50  0000 C CNN
+F 2 "" H 6800 7500 50  0001 C CNN
+F 3 "" H 6800 7500 50  0001 C CNN
+	1    6800 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Female J116
+U 1 1 5A5B00FC
+P 6100 7200
+F 0 "J116" H 5975 7400 50  0000 C CNN
+F 1 "01x03" V 6150 7200 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Blank" H 6100 7200 50  0001 C CNN
+F 3 "" H 6100 7200 50  0001 C CNN
+	1    6100 7200
+	1    0    0    1   
+$EndComp
+Text GLabel 800  6500 0    60   Input ~ 0
+3V3S
+Wire Wire Line
+	800  6500 6400 6500
+Wire Wire Line
+	6400 6500 6400 7200
+Wire Wire Line
+	6400 7200 6500 7200
+Wire Wire Line
+	6500 7100 6500 7000
+Wire Wire Line
+	5900 7200 5800 7200
+Wire Wire Line
+	5800 7200 5800 6500
+Connection ~ 5800 6500
+Wire Wire Line
+	5900 7100 5900 7000
+$Comp
+L Conn_01x03_Female J115
+U 1 1 5A5B0BE6
+P 5500 7200
+F 0 "J115" H 5375 7400 50  0000 C CNN
+F 1 "01x03" V 5550 7200 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Blank" H 5500 7200 50  0001 C CNN
+F 3 "" H 5500 7200 50  0001 C CNN
+	1    5500 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x03_Female J114
+U 1 1 5A5B0F24
+P 4900 7200
+F 0 "J114" H 4775 7400 50  0000 L CNN
+F 1 "01x03" V 4950 7200 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Blank" H 4900 7200 50  0001 C CNN
+F 3 "" H 4900 7200 50  0001 C CNN
+	1    4900 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x03_Female J109
+U 1 1 5A5B100C
+P 4400 7200
+F 0 "J109" H 4275 7400 50  0000 L CNN
+F 1 "01x03" V 4450 7200 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Blank" H 4400 7200 50  0001 C CNN
+F 3 "" H 4400 7200 50  0001 C CNN
+	1    4400 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x03_Female J108
+U 1 1 5A5B15A8
+P 3800 7200
+F 0 "J108" H 3675 7400 50  0000 L CNN
+F 1 "01x03" V 3850 7200 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Blank" H 3800 7200 50  0001 C CNN
+F 3 "" H 3800 7200 50  0001 C CNN
+	1    3800 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x03_Female J107
+U 1 1 5A5B15AE
+P 3200 7200
+F 0 "J107" H 3075 7400 50  0000 L CNN
+F 1 "01x03" V 3250 7200 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Blank" H 3200 7200 50  0001 C CNN
+F 3 "" H 3200 7200 50  0001 C CNN
+	1    3200 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x03_Female J106
+U 1 1 5A5B15B4
+P 2600 7200
+F 0 "J106" H 2475 7400 50  0000 L CNN
+F 1 "01x03" V 2650 7200 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Blank" H 2600 7200 50  0001 C CNN
+F 3 "" H 2600 7200 50  0001 C CNN
+	1    2600 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x03_Female J105
+U 1 1 5A5B15BA
+P 2000 7200
+F 0 "J105" H 1875 7400 50  0000 L CNN
+F 1 "01x03" V 2050 7200 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Blank" H 2000 7200 50  0001 C CNN
+F 3 "" H 2000 7200 50  0001 C CNN
+	1    2000 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x03_Female J104
+U 1 1 5A5B15C0
+P 1400 7200
+F 0 "J104" H 1275 7400 50  0000 L CNN
+F 1 "01x03" V 1450 7200 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Blank" H 1400 7200 50  0001 C CNN
+F 3 "" H 1400 7200 50  0001 C CNN
+	1    1400 7200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4700 7200 4600 7200
+Wire Wire Line
+	4600 7200 4600 6500
+Connection ~ 4600 6500
+Wire Wire Line
+	5300 7200 5100 7200
+Wire Wire Line
+	5100 7200 5100 6500
+Connection ~ 5100 6500
+Wire Wire Line
+	1200 7300 1200 7500
+Wire Wire Line
+	1200 7500 6800 7500
+Wire Wire Line
+	4200 7200 4100 7200
+Wire Wire Line
+	4100 7200 4100 6500
+Connection ~ 4100 6500
+Wire Wire Line
+	3600 7200 3500 7200
+Wire Wire Line
+	3500 7200 3500 6500
+Connection ~ 3500 6500
+Wire Wire Line
+	3000 7200 2900 7200
+Wire Wire Line
+	2900 7200 2900 6500
+Connection ~ 2900 6500
+Wire Wire Line
+	2400 7200 2300 7200
+Wire Wire Line
+	2300 7200 2300 6500
+Connection ~ 2300 6500
+Wire Wire Line
+	1800 7200 1700 7200
+Wire Wire Line
+	1700 7200 1700 6500
+Connection ~ 1700 6500
+Wire Wire Line
+	1200 7200 1100 7200
+Wire Wire Line
+	1100 7200 1100 6500
+Connection ~ 1100 6500
+Wire Wire Line
+	1800 7300 1800 7500
+Connection ~ 1800 7500
+Wire Wire Line
+	2400 7300 2400 7500
+Connection ~ 2400 7500
+Wire Wire Line
+	3000 7300 3000 7500
+Connection ~ 3000 7500
+Wire Wire Line
+	3600 7300 3600 7500
+Connection ~ 3600 7500
+Wire Wire Line
+	4200 7300 4200 7500
+Connection ~ 4200 7500
+Wire Wire Line
+	4700 7300 4700 7500
+Connection ~ 4700 7500
+Wire Wire Line
+	5300 7300 5300 7500
+Connection ~ 5300 7500
+Wire Wire Line
+	5900 7300 5900 7500
+Connection ~ 5900 7500
+Wire Wire Line
+	6500 7300 6500 7500
+Connection ~ 6500 7500
+Wire Wire Line
+	1200 7100 1200 7000
+Wire Wire Line
+	1800 7100 1800 7000
+Wire Wire Line
+	2400 7100 2400 7000
+Wire Wire Line
+	3000 7100 3000 7000
+Wire Wire Line
+	3600 7100 3600 7000
+Wire Wire Line
+	4200 7100 4200 7000
+Wire Wire Line
+	4700 7100 4700 7000
+Wire Wire Line
+	5300 7100 5300 7000
 $EndSCHEMATC
