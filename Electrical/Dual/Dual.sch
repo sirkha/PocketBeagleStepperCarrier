@@ -69,17 +69,17 @@ F11 "GPIO_30" T R 2400 2300 60
 F12 "GPIO_31" T R 2400 2400 60 
 F13 "GPIO_40" T R 2400 2500 60 
 F14 "GPIO_41" T R 2400 2600 60 
-F15 "GPIO_44" T R 2400 2700 60 
-F16 "GPIO_45" T R 2400 2800 60 
-F17 "GPIO_46" T R 2400 2900 60 
-F18 "GPIO_50" T R 2400 3000 60 
-F19 "GPIO_86" T R 2400 3100 60 
-F20 "GPIO_87" T R 2400 3200 60 
-F21 "GPIO_112" T R 2400 3400 60 
-F22 "GPIO_113" T R 2400 3500 60 
-F23 "GPIO_115" T R 2400 3600 60 
-F24 "GPIO_116" T R 2400 3700 60 
-F25 "GPIO_89" T R 2400 3300 60 
+F15 "GPIO_45" T R 2400 2700 60 
+F16 "GPIO_46" T R 2400 2800 60 
+F17 "GPIO_50" T R 2400 2900 60 
+F18 "GPIO_86" T R 2400 3100 60 
+F19 "GPIO_87" T R 2400 3200 60 
+F20 "GPIO_112" T R 2400 3400 60 
+F21 "GPIO_113" T R 2400 3500 60 
+F22 "GPIO_115" T R 2400 3600 60 
+F23 "GPIO_116" T R 2400 3700 60 
+F24 "GPIO_89" T R 2400 3300 60 
+F25 "GPIO_52" T R 2400 3000 60 
 $EndSheet
 Text Label 2400 1300 0    60   ~ 0
 ain_0
@@ -93,7 +93,7 @@ Text Label 2400 1800 0    60   ~ 0
 ehrpwm0A
 Text Label 2400 1900 0    60   ~ 0
 ehrpwm0B
-Text Label 2400 3000 0    60   ~ 0
+Text Label 2400 2900 0    60   ~ 0
 ehrpwm1A
 Text Label 2400 2200 0    60   ~ 0
 ehrpwm2B
@@ -110,10 +110,8 @@ spi1_sclk
 Text Label 2400 2100 0    60   ~ 0
 spi1_cs1
 Text Label 2400 2700 0    60   ~ 0
-gpio1_12
-Text Label 2400 2800 0    60   ~ 0
 gpio1_13
-Text Label 2400 2900 0    60   ~ 0
+Text Label 2400 2800 0    60   ~ 0
 gpio1_14
 Text Label 2400 3100 0    60   ~ 0
 gpio2_22
@@ -157,13 +155,13 @@ ehrpwm0A
 $Comp
 L R_Pack04 RN101
 U 1 1 5A58B9AC
-P 9700 1600
-F 0 "RN101" V 9400 1600 50  0000 C CNN
-F 1 "1K2" V 9900 1600 50  0000 C CNN
-F 2 "footprints:R_Array_1206x04" V 9975 1600 50  0001 C CNN
-F 3 "" H 9700 1600 50  0001 C CNN
-	1    9700 1600
-	1    0    0    1   
+P 9600 1600
+F 0 "RN101" V 9300 1600 50  0000 C CNN
+F 1 "1K2" V 9800 1600 50  0000 C CNN
+F 2 "footprints:R_Array_1206x04" V 9875 1600 50  0001 C CNN
+F 3 "" H 9600 1600 50  0001 C CNN
+	1    9600 1600
+	-1   0    0    1   
 $EndComp
 $Comp
 L Conn_01x04 J111
@@ -399,11 +397,11 @@ Text Label 5400 1200 2    60   ~ 0
 spi1_d1
 Text Label 5400 1400 2    60   ~ 0
 spi1_sclk
-Text Label 1200 7000 0    60   ~ 0
-gpio1_12
-Text Label 1800 7000 0    60   ~ 0
-gpio1_13
 Text Label 2400 7000 0    60   ~ 0
+gpio1_20
+Text Label 1200 7000 0    60   ~ 0
+gpio1_13
+Text Label 1800 7000 0    60   ~ 0
 gpio1_14
 Text Label 3000 7000 0    60   ~ 0
 gpio2_22
@@ -419,85 +417,10 @@ Text Label 5900 7000 0    60   ~ 0
 gpio3_19
 Text Label 6500 7000 0    60   ~ 0
 gpio3_20
-Wire Wire Line
-	9300 2000 9500 2000
-Wire Wire Line
-	9500 2000 9500 1800
-Wire Wire Line
-	9300 2500 9600 2500
-Wire Wire Line
-	9600 2500 9600 1800
-Wire Wire Line
-	9300 3000 9700 3000
-Wire Wire Line
-	9700 3000 9700 1800
-Wire Wire Line
-	9300 3500 9800 3500
-Wire Wire Line
-	9800 3500 9800 1800
-Wire Wire Line
-	9300 2200 9900 2200
-Wire Wire Line
-	9900 2200 9900 3900
-Wire Wire Line
-	9300 2700 9900 2700
-Connection ~ 9900 2700
-Wire Wire Line
-	9300 3700 9900 3700
-Connection ~ 9900 3700
-Wire Wire Line
-	10500 2000 10700 2000
-Wire Wire Line
-	9300 2100 10600 2100
-Wire Wire Line
-	10600 2100 10600 2000
-Connection ~ 10600 2000
-Wire Wire Line
-	10500 2500 10700 2500
-Wire Wire Line
-	10600 2600 10600 2500
-Connection ~ 10600 2500
-Wire Wire Line
-	10500 3000 10700 3000
-Wire Wire Line
-	10600 3100 10600 3000
-Connection ~ 10600 3000
-Wire Wire Line
-	10500 3500 10700 3500
-Wire Wire Line
-	10600 3600 10600 3500
-Connection ~ 10600 3500
-Wire Wire Line
-	10300 1700 10300 3500
-Wire Wire Line
-	10900 1700 10900 3500
-Wire Wire Line
-	10600 2600 9300 2600
-Wire Wire Line
-	10600 3100 9300 3100
-Wire Wire Line
-	9300 3600 10600 3600
-Wire Wire Line
-	9300 3200 9900 3200
-Connection ~ 9900 3200
-Wire Wire Line
-	4300 1550 4300 1500
-Wire Wire Line
-	5900 1300 5900 1600
-Connection ~ 5900 1500
-Connection ~ 5900 1400
-Connection ~ 10900 2000
-Connection ~ 10900 2500
-Connection ~ 10900 3000
-Connection ~ 10300 3000
-Connection ~ 10300 2500
-Connection ~ 10300 2000
 Text Label 4300 1300 2    60   ~ 0
 uart4_rxd
 Text Label 4300 1400 2    60   ~ 0
 uart4_txd
-Wire Wire Line
-	4300 1200 4300 1100
 $Comp
 L Conn_01x03_Female J117
 U 1 1 5A5AE92B
@@ -533,21 +456,6 @@ F 3 "" H 6100 7200 50  0001 C CNN
 $EndComp
 Text GLabel 800  6500 0    60   Input ~ 0
 3V3S
-Wire Wire Line
-	800  6500 6400 6500
-Wire Wire Line
-	6400 6500 6400 7200
-Wire Wire Line
-	6400 7200 6500 7200
-Wire Wire Line
-	6500 7100 6500 7000
-Wire Wire Line
-	5900 7200 5800 7200
-Wire Wire Line
-	5800 7200 5800 6500
-Connection ~ 5800 6500
-Wire Wire Line
-	5900 7100 5900 7000
 $Comp
 L Conn_01x03_Female J115
 U 1 1 5A5B0BE6
@@ -636,6 +544,111 @@ F 3 "" H 1400 7200 50  0001 C CNN
 	1    1400 7200
 	1    0    0    1   
 $EndComp
+Text Label 2400 3000 0    60   ~ 0
+gpio1_20
+Text Notes 3200 2250 0    200  ~ 0
+Prototyping Area
+$Comp
+L Conn_02x05_Odd_Even x100
+U 1 1 5A60B968
+P 2200 5350
+F 0 "x100" H 2250 5650 50  0000 C CNN
+F 1 "02x05" H 2250 5050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 2200 5350 50  0001 C CNN
+F 3 "" H 2200 5350 50  0001 C CNN
+	1    2200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2000 9500 2000
+Wire Wire Line
+	9500 2000 9500 1800
+Wire Wire Line
+	9300 2500 9600 2500
+Wire Wire Line
+	9600 2500 9600 1800
+Wire Wire Line
+	9300 3000 9700 3000
+Wire Wire Line
+	9700 3000 9700 1800
+Wire Wire Line
+	9300 3500 9800 3500
+Wire Wire Line
+	9800 3500 9800 1800
+Wire Wire Line
+	9300 2200 9900 2200
+Wire Wire Line
+	9900 2200 9900 3900
+Wire Wire Line
+	9300 2700 9900 2700
+Connection ~ 9900 2700
+Wire Wire Line
+	9300 3700 9900 3700
+Connection ~ 9900 3700
+Wire Wire Line
+	10500 2000 10700 2000
+Wire Wire Line
+	9300 2100 10600 2100
+Wire Wire Line
+	10600 2100 10600 2000
+Connection ~ 10600 2000
+Wire Wire Line
+	10500 2500 10700 2500
+Wire Wire Line
+	10600 2600 10600 2500
+Connection ~ 10600 2500
+Wire Wire Line
+	10500 3000 10700 3000
+Wire Wire Line
+	10600 3100 10600 3000
+Connection ~ 10600 3000
+Wire Wire Line
+	10500 3500 10700 3500
+Wire Wire Line
+	10600 3600 10600 3500
+Connection ~ 10600 3500
+Wire Wire Line
+	10300 1700 10300 3500
+Wire Wire Line
+	10900 1700 10900 3500
+Wire Wire Line
+	10600 2600 9300 2600
+Wire Wire Line
+	10600 3100 9300 3100
+Wire Wire Line
+	9300 3600 10600 3600
+Wire Wire Line
+	9300 3200 9900 3200
+Connection ~ 9900 3200
+Wire Wire Line
+	4300 1550 4300 1500
+Wire Wire Line
+	5900 1300 5900 1600
+Connection ~ 5900 1500
+Connection ~ 5900 1400
+Connection ~ 10900 2000
+Connection ~ 10900 2500
+Connection ~ 10900 3000
+Connection ~ 10300 3000
+Connection ~ 10300 2500
+Connection ~ 10300 2000
+Wire Wire Line
+	4300 1200 4300 1100
+Wire Wire Line
+	800  6500 6400 6500
+Wire Wire Line
+	6400 6500 6400 7200
+Wire Wire Line
+	6400 7200 6500 7200
+Wire Wire Line
+	6500 7100 6500 7000
+Wire Wire Line
+	5900 7200 5800 7200
+Wire Wire Line
+	5800 7200 5800 6500
+Connection ~ 5800 6500
+Wire Wire Line
+	5900 7100 5900 7000
 Wire Wire Line
 	4700 7200 4600 7200
 Wire Wire Line
@@ -723,4 +736,850 @@ Wire Wire Line
 	4700 7100 4700 7000
 Wire Wire Line
 	5300 7100 5300 7000
+Wire Wire Line
+	2850 2500 8250 2500
+Wire Wire Line
+	8550 3100 2900 3100
+Wire Wire Line
+	2900 3100 2900 5150
+Wire Wire Line
+	2900 5150 2500 5150
+Wire Wire Line
+	2850 2500 2850 4600
+Wire Wire Line
+	2850 4600 2000 4600
+Wire Wire Line
+	2000 4600 2000 5150
+Connection ~ 3300 2500
+Wire Wire Line
+	2950 3200 8250 3200
+Wire Wire Line
+	2950 3200 2950 4650
+Wire Wire Line
+	2950 4650 1950 4650
+Wire Wire Line
+	1950 4650 1950 5250
+Wire Wire Line
+	1950 5250 2000 5250
+Wire Wire Line
+	3000 3800 8550 3800
+Wire Wire Line
+	3000 3800 3000 5250
+Wire Wire Line
+	3000 5250 2500 5250
+Wire Wire Line
+	3050 3900 8250 3900
+Wire Wire Line
+	3050 3900 3050 4700
+Wire Wire Line
+	3050 4700 1900 4700
+Wire Wire Line
+	1900 4700 1900 5350
+Wire Wire Line
+	1900 5350 2000 5350
+Wire Wire Line
+	3100 4500 8550 4500
+Wire Wire Line
+	3100 4500 3100 5350
+Wire Wire Line
+	3100 5350 2500 5350
+Wire Wire Line
+	3150 4600 8250 4600
+Wire Wire Line
+	3150 4600 3150 4750
+Wire Wire Line
+	3150 4750 1850 4750
+Wire Wire Line
+	1850 4750 1850 5450
+Wire Wire Line
+	1850 5450 2000 5450
+Wire Wire Line
+	3150 5200 8550 5200
+Wire Wire Line
+	3150 5200 3150 5450
+Wire Wire Line
+	3150 5450 2500 5450
+Wire Wire Line
+	2500 5900 8550 5900
+Wire Wire Line
+	2500 5900 2500 5550
+Wire Wire Line
+	3200 5300 8250 5300
+Wire Wire Line
+	3200 4800 3200 5300
+Wire Wire Line
+	3200 4800 1800 4800
+Wire Wire Line
+	1800 4800 1800 5550
+Wire Wire Line
+	1800 5550 2000 5550
+Connection ~ 3300 3200
+Connection ~ 3300 3900
+Connection ~ 3300 4600
+Connection ~ 3600 4500
+Connection ~ 3600 3800
+Connection ~ 3600 5200
+Connection ~ 3600 5900
+Connection ~ 3300 5300
+Connection ~ 8100 3100
+Connection ~ 7650 3100
+Connection ~ 7200 3100
+Connection ~ 6750 3100
+Connection ~ 6300 3100
+Connection ~ 5850 3100
+Connection ~ 5400 3100
+Connection ~ 4950 3100
+Connection ~ 4500 3100
+Connection ~ 4050 3100
+Connection ~ 3600 3100
+Connection ~ 3750 2500
+Connection ~ 4200 2500
+Connection ~ 4650 2500
+Connection ~ 5100 2500
+Connection ~ 5550 2500
+Connection ~ 6000 2500
+Connection ~ 6450 2500
+Connection ~ 6900 2500
+Connection ~ 7350 2500
+Connection ~ 7800 2500
+Connection ~ 4050 5900
+Connection ~ 4500 5900
+Connection ~ 4950 5900
+Connection ~ 5400 5900
+Connection ~ 5850 5900
+Connection ~ 6300 5900
+Connection ~ 6750 5900
+Connection ~ 7200 5900
+Connection ~ 7650 5900
+Connection ~ 8100 5900
+Connection ~ 3750 5300
+Connection ~ 4200 5300
+Connection ~ 4650 5300
+Connection ~ 5100 5300
+Connection ~ 5550 5300
+Connection ~ 6000 5300
+Connection ~ 6450 5300
+Connection ~ 6900 5300
+Connection ~ 7350 5300
+Connection ~ 7800 5300
+Connection ~ 3750 4600
+Connection ~ 4200 4600
+Connection ~ 4650 4600
+Connection ~ 5100 4600
+Connection ~ 5550 4600
+Connection ~ 6000 4600
+Connection ~ 6450 4600
+Connection ~ 6900 4600
+Connection ~ 7350 4600
+Connection ~ 7800 4600
+Connection ~ 3750 3900
+Connection ~ 4200 3900
+Connection ~ 4650 3900
+Connection ~ 5100 3900
+Connection ~ 5550 3900
+Connection ~ 6000 3900
+Connection ~ 6450 3900
+Connection ~ 6900 3900
+Connection ~ 7350 3900
+Connection ~ 7800 3900
+Connection ~ 3750 3200
+Connection ~ 4200 3200
+Connection ~ 4650 3200
+Connection ~ 5100 3200
+Connection ~ 5550 3200
+Connection ~ 6000 3200
+Connection ~ 6450 3200
+Connection ~ 6900 3200
+Connection ~ 7350 3200
+Connection ~ 7800 3200
+Connection ~ 4050 3800
+Connection ~ 4500 3800
+Connection ~ 4950 3800
+Connection ~ 5400 3800
+Connection ~ 5850 3800
+Connection ~ 6300 3800
+Connection ~ 6750 3800
+Connection ~ 7200 3800
+Connection ~ 7650 3800
+Connection ~ 8100 3800
+$Comp
+L RoutaCell x101
+U 1 1 5A60FFB9
+P 3450 2800
+F 0 "x101" H 3450 3050 60  0001 C CNN
+F 1 "RoutaCell" H 3450 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellTop" H 3450 2800 60  0001 C CNN
+F 3 "" H 3450 2800 60  0001 C CNN
+	1    3450 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x102
+U 1 1 5A60FFBF
+P 3900 2800
+F 0 "x102" H 3900 3050 60  0001 C CNN
+F 1 "RoutaCell" H 3900 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellLeft" H 3900 2800 60  0001 C CNN
+F 3 "" H 3900 2800 60  0001 C CNN
+	1    3900 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x103
+U 1 1 5A60FFC5
+P 4350 2800
+F 0 "x103" H 4350 3050 60  0001 C CNN
+F 1 "RoutaCell" H 4350 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellLeft" H 4350 2800 60  0001 C CNN
+F 3 "" H 4350 2800 60  0001 C CNN
+	1    4350 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x104
+U 1 1 5A60FFCB
+P 4800 2800
+F 0 "x104" H 4800 3050 60  0001 C CNN
+F 1 "RoutaCell" H 4800 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellLeft" H 4800 2800 60  0001 C CNN
+F 3 "" H 4800 2800 60  0001 C CNN
+	1    4800 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x105
+U 1 1 5A60FFD1
+P 5250 2800
+F 0 "x105" H 5250 3050 60  0001 C CNN
+F 1 "RoutaCell" H 5250 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellLeft" H 5250 2800 60  0001 C CNN
+F 3 "" H 5250 2800 60  0001 C CNN
+	1    5250 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x106
+U 1 1 5A60FFD7
+P 5700 2800
+F 0 "x106" H 5700 3050 60  0001 C CNN
+F 1 "RoutaCell" H 5700 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellLeft" H 5700 2800 60  0001 C CNN
+F 3 "" H 5700 2800 60  0001 C CNN
+	1    5700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x107
+U 1 1 5A60FFDD
+P 6150 2800
+F 0 "x107" H 6150 3050 60  0001 C CNN
+F 1 "RoutaCell" H 6150 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellLeft" H 6150 2800 60  0001 C CNN
+F 3 "" H 6150 2800 60  0001 C CNN
+	1    6150 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x108
+U 1 1 5A60FFE3
+P 6600 2800
+F 0 "x108" H 6600 3050 60  0001 C CNN
+F 1 "RoutaCell" H 6600 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellLeft" H 6600 2800 60  0001 C CNN
+F 3 "" H 6600 2800 60  0001 C CNN
+	1    6600 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x109
+U 1 1 5A60FFE9
+P 7050 2800
+F 0 "x109" H 7050 3050 60  0001 C CNN
+F 1 "RoutaCell" H 7050 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellLeft" H 7050 2800 60  0001 C CNN
+F 3 "" H 7050 2800 60  0001 C CNN
+	1    7050 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x110
+U 1 1 5A60FFEF
+P 7500 2800
+F 0 "x110" H 7500 3050 60  0001 C CNN
+F 1 "RoutaCell" H 7500 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellLeft" H 7500 2800 60  0001 C CNN
+F 3 "" H 7500 2800 60  0001 C CNN
+	1    7500 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x111
+U 1 1 5A60FFF5
+P 7950 2800
+F 0 "x111" H 7950 3050 60  0001 C CNN
+F 1 "RoutaCell" H 7950 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellLeft" H 7950 2800 60  0001 C CNN
+F 3 "" H 7950 2800 60  0001 C CNN
+	1    7950 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x112
+U 1 1 5A60FFFB
+P 8400 2800
+F 0 "x112" H 8400 3050 60  0001 C CNN
+F 1 "RoutaCell" H 8400 2550 60  0001 C CNN
+F 2 "footprints:RoutaCellBottomLeft" H 8400 2800 60  0001 C CNN
+F 3 "" H 8400 2800 60  0001 C CNN
+	1    8400 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x113
+U 1 1 5A610145
+P 3450 3500
+F 0 "x113" H 3450 3750 60  0001 C CNN
+F 1 "RoutaCell" H 3450 3250 60  0001 C CNN
+F 2 "footprints:RoutaCellTop" H 3450 3500 60  0001 C CNN
+F 3 "" H 3450 3500 60  0001 C CNN
+	1    3450 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x114
+U 1 1 5A61014B
+P 3900 3500
+F 0 "x114" H 3900 3750 60  0001 C CNN
+F 1 "RoutaCell" H 3900 3250 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 3900 3500 60  0001 C CNN
+F 3 "" H 3900 3500 60  0001 C CNN
+	1    3900 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x115
+U 1 1 5A610151
+P 4350 3500
+F 0 "x115" H 4350 3750 60  0001 C CNN
+F 1 "RoutaCell" H 4350 3250 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 4350 3500 60  0001 C CNN
+F 3 "" H 4350 3500 60  0001 C CNN
+	1    4350 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x116
+U 1 1 5A610157
+P 4800 3500
+F 0 "x116" H 4800 3750 60  0001 C CNN
+F 1 "RoutaCell" H 4800 3250 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 4800 3500 60  0001 C CNN
+F 3 "" H 4800 3500 60  0001 C CNN
+	1    4800 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x117
+U 1 1 5A61015D
+P 5250 3500
+F 0 "x117" H 5250 3750 60  0001 C CNN
+F 1 "RoutaCell" H 5250 3250 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 5250 3500 60  0001 C CNN
+F 3 "" H 5250 3500 60  0001 C CNN
+	1    5250 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x118
+U 1 1 5A610163
+P 5700 3500
+F 0 "x118" H 5700 3750 60  0001 C CNN
+F 1 "RoutaCell" H 5700 3250 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 5700 3500 60  0001 C CNN
+F 3 "" H 5700 3500 60  0001 C CNN
+	1    5700 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x119
+U 1 1 5A610169
+P 6150 3500
+F 0 "x119" H 6150 3750 60  0001 C CNN
+F 1 "RoutaCell" H 6150 3250 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 6150 3500 60  0001 C CNN
+F 3 "" H 6150 3500 60  0001 C CNN
+	1    6150 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x120
+U 1 1 5A61016F
+P 6600 3500
+F 0 "x120" H 6600 3750 60  0001 C CNN
+F 1 "RoutaCell" H 6600 3250 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 6600 3500 60  0001 C CNN
+F 3 "" H 6600 3500 60  0001 C CNN
+	1    6600 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x121
+U 1 1 5A610175
+P 7050 3500
+F 0 "x121" H 7050 3750 60  0001 C CNN
+F 1 "RoutaCell" H 7050 3250 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 7050 3500 60  0001 C CNN
+F 3 "" H 7050 3500 60  0001 C CNN
+	1    7050 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x122
+U 1 1 5A61017B
+P 7500 3500
+F 0 "x122" H 7500 3750 60  0001 C CNN
+F 1 "RoutaCell" H 7500 3250 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 7500 3500 60  0001 C CNN
+F 3 "" H 7500 3500 60  0001 C CNN
+	1    7500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x123
+U 1 1 5A610181
+P 7950 3500
+F 0 "x123" H 7950 3750 60  0001 C CNN
+F 1 "RoutaCell" H 7950 3250 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 7950 3500 60  0001 C CNN
+F 3 "" H 7950 3500 60  0001 C CNN
+	1    7950 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x124
+U 1 1 5A610187
+P 8400 3500
+F 0 "x124" H 8400 3750 60  0001 C CNN
+F 1 "RoutaCell" H 8400 3250 60  0001 C CNN
+F 2 "footprints:RoutaCellBottom" H 8400 3500 60  0001 C CNN
+F 3 "" H 8400 3500 60  0001 C CNN
+	1    8400 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x125
+U 1 1 5A6101F0
+P 3450 4200
+F 0 "x125" H 3450 4450 60  0001 C CNN
+F 1 "RoutaCell" H 3450 3950 60  0001 C CNN
+F 2 "footprints:RoutaCellTop" H 3450 4200 60  0001 C CNN
+F 3 "" H 3450 4200 60  0001 C CNN
+	1    3450 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x126
+U 1 1 5A6101F6
+P 3900 4200
+F 0 "x126" H 3900 4450 60  0001 C CNN
+F 1 "RoutaCell" H 3900 3950 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 3900 4200 60  0001 C CNN
+F 3 "" H 3900 4200 60  0001 C CNN
+	1    3900 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x127
+U 1 1 5A6101FC
+P 4350 4200
+F 0 "x127" H 4350 4450 60  0001 C CNN
+F 1 "RoutaCell" H 4350 3950 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 4350 4200 60  0001 C CNN
+F 3 "" H 4350 4200 60  0001 C CNN
+	1    4350 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x128
+U 1 1 5A610202
+P 4800 4200
+F 0 "x128" H 4800 4450 60  0001 C CNN
+F 1 "RoutaCell" H 4800 3950 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 4800 4200 60  0001 C CNN
+F 3 "" H 4800 4200 60  0001 C CNN
+	1    4800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x129
+U 1 1 5A610208
+P 5250 4200
+F 0 "x129" H 5250 4450 60  0001 C CNN
+F 1 "RoutaCell" H 5250 3950 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 5250 4200 60  0001 C CNN
+F 3 "" H 5250 4200 60  0001 C CNN
+	1    5250 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x130
+U 1 1 5A61020E
+P 5700 4200
+F 0 "x130" H 5700 4450 60  0001 C CNN
+F 1 "RoutaCell" H 5700 3950 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 5700 4200 60  0001 C CNN
+F 3 "" H 5700 4200 60  0001 C CNN
+	1    5700 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x131
+U 1 1 5A610214
+P 6150 4200
+F 0 "x131" H 6150 4450 60  0001 C CNN
+F 1 "RoutaCell" H 6150 3950 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 6150 4200 60  0001 C CNN
+F 3 "" H 6150 4200 60  0001 C CNN
+	1    6150 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x132
+U 1 1 5A61021A
+P 6600 4200
+F 0 "x132" H 6600 4450 60  0001 C CNN
+F 1 "RoutaCell" H 6600 3950 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 6600 4200 60  0001 C CNN
+F 3 "" H 6600 4200 60  0001 C CNN
+	1    6600 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x133
+U 1 1 5A610220
+P 7050 4200
+F 0 "x133" H 7050 4450 60  0001 C CNN
+F 1 "RoutaCell" H 7050 3950 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 7050 4200 60  0001 C CNN
+F 3 "" H 7050 4200 60  0001 C CNN
+	1    7050 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x134
+U 1 1 5A610226
+P 7500 4200
+F 0 "x134" H 7500 4450 60  0001 C CNN
+F 1 "RoutaCell" H 7500 3950 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 7500 4200 60  0001 C CNN
+F 3 "" H 7500 4200 60  0001 C CNN
+	1    7500 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x135
+U 1 1 5A61022C
+P 7950 4200
+F 0 "x135" H 7950 4450 60  0001 C CNN
+F 1 "RoutaCell" H 7950 3950 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 7950 4200 60  0001 C CNN
+F 3 "" H 7950 4200 60  0001 C CNN
+	1    7950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x136
+U 1 1 5A610232
+P 8400 4200
+F 0 "x136" H 8400 4450 60  0001 C CNN
+F 1 "RoutaCell" H 8400 3950 60  0001 C CNN
+F 2 "footprints:RoutaCellBottom" H 8400 4200 60  0001 C CNN
+F 3 "" H 8400 4200 60  0001 C CNN
+	1    8400 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x137
+U 1 1 5A61029B
+P 3450 4900
+F 0 "x137" H 3450 5150 60  0001 C CNN
+F 1 "RoutaCell" H 3450 4650 60  0001 C CNN
+F 2 "footprints:RoutaCellTop" H 3450 4900 60  0001 C CNN
+F 3 "" H 3450 4900 60  0001 C CNN
+	1    3450 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x138
+U 1 1 5A6102A1
+P 3900 4900
+F 0 "x138" H 3900 5150 60  0001 C CNN
+F 1 "RoutaCell" H 3900 4650 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 3900 4900 60  0001 C CNN
+F 3 "" H 3900 4900 60  0001 C CNN
+	1    3900 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x139
+U 1 1 5A6102A7
+P 4350 4900
+F 0 "x139" H 4350 5150 60  0001 C CNN
+F 1 "RoutaCell" H 4350 4650 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 4350 4900 60  0001 C CNN
+F 3 "" H 4350 4900 60  0001 C CNN
+	1    4350 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x140
+U 1 1 5A6102AD
+P 4800 4900
+F 0 "x140" H 4800 5150 60  0001 C CNN
+F 1 "RoutaCell" H 4800 4650 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 4800 4900 60  0001 C CNN
+F 3 "" H 4800 4900 60  0001 C CNN
+	1    4800 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x141
+U 1 1 5A6102B3
+P 5250 4900
+F 0 "x141" H 5250 5150 60  0001 C CNN
+F 1 "RoutaCell" H 5250 4650 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 5250 4900 60  0001 C CNN
+F 3 "" H 5250 4900 60  0001 C CNN
+	1    5250 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x142
+U 1 1 5A6102B9
+P 5700 4900
+F 0 "x142" H 5700 5150 60  0001 C CNN
+F 1 "RoutaCell" H 5700 4650 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 5700 4900 60  0001 C CNN
+F 3 "" H 5700 4900 60  0001 C CNN
+	1    5700 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x143
+U 1 1 5A6102BF
+P 6150 4900
+F 0 "x143" H 6150 5150 60  0001 C CNN
+F 1 "RoutaCell" H 6150 4650 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 6150 4900 60  0001 C CNN
+F 3 "" H 6150 4900 60  0001 C CNN
+	1    6150 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x144
+U 1 1 5A6102C5
+P 6600 4900
+F 0 "x144" H 6600 5150 60  0001 C CNN
+F 1 "RoutaCell" H 6600 4650 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 6600 4900 60  0001 C CNN
+F 3 "" H 6600 4900 60  0001 C CNN
+	1    6600 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x145
+U 1 1 5A6102CB
+P 7050 4900
+F 0 "x145" H 7050 5150 60  0001 C CNN
+F 1 "RoutaCell" H 7050 4650 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 7050 4900 60  0001 C CNN
+F 3 "" H 7050 4900 60  0001 C CNN
+	1    7050 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x146
+U 1 1 5A6102D1
+P 7500 4900
+F 0 "x146" H 7500 5150 60  0001 C CNN
+F 1 "RoutaCell" H 7500 4650 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 7500 4900 60  0001 C CNN
+F 3 "" H 7500 4900 60  0001 C CNN
+	1    7500 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x147
+U 1 1 5A6102D7
+P 7950 4900
+F 0 "x147" H 7950 5150 60  0001 C CNN
+F 1 "RoutaCell" H 7950 4650 60  0001 C CNN
+F 2 "footprints:RoutaCell" H 7950 4900 60  0001 C CNN
+F 3 "" H 7950 4900 60  0001 C CNN
+	1    7950 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x148
+U 1 1 5A6102DD
+P 8400 4900
+F 0 "x148" H 8400 5150 60  0001 C CNN
+F 1 "RoutaCell" H 8400 4650 60  0001 C CNN
+F 2 "footprints:RoutaCellBottom" H 8400 4900 60  0001 C CNN
+F 3 "" H 8400 4900 60  0001 C CNN
+	1    8400 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x149
+U 1 1 5A610346
+P 3450 5600
+F 0 "x149" H 3450 5850 60  0001 C CNN
+F 1 "RoutaCell" H 3450 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellTopRight" H 3450 5600 60  0001 C CNN
+F 3 "" H 3450 5600 60  0001 C CNN
+	1    3450 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x150
+U 1 1 5A61034C
+P 3900 5600
+F 0 "x150" H 3900 5850 60  0001 C CNN
+F 1 "RoutaCell" H 3900 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellRight" H 3900 5600 60  0001 C CNN
+F 3 "" H 3900 5600 60  0001 C CNN
+	1    3900 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x151
+U 1 1 5A610352
+P 4350 5600
+F 0 "x151" H 4350 5850 60  0001 C CNN
+F 1 "RoutaCell" H 4350 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellRight" H 4350 5600 60  0001 C CNN
+F 3 "" H 4350 5600 60  0001 C CNN
+	1    4350 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x152
+U 1 1 5A610358
+P 4800 5600
+F 0 "x152" H 4800 5850 60  0001 C CNN
+F 1 "RoutaCell" H 4800 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellRight" H 4800 5600 60  0001 C CNN
+F 3 "" H 4800 5600 60  0001 C CNN
+	1    4800 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x153
+U 1 1 5A61035E
+P 5250 5600
+F 0 "x153" H 5250 5850 60  0001 C CNN
+F 1 "RoutaCell" H 5250 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellRight" H 5250 5600 60  0001 C CNN
+F 3 "" H 5250 5600 60  0001 C CNN
+	1    5250 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x154
+U 1 1 5A610364
+P 5700 5600
+F 0 "x154" H 5700 5850 60  0001 C CNN
+F 1 "RoutaCell" H 5700 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellRight" H 5700 5600 60  0001 C CNN
+F 3 "" H 5700 5600 60  0001 C CNN
+	1    5700 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x155
+U 1 1 5A61036A
+P 6150 5600
+F 0 "x155" H 6150 5850 60  0001 C CNN
+F 1 "RoutaCell" H 6150 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellRight" H 6150 5600 60  0001 C CNN
+F 3 "" H 6150 5600 60  0001 C CNN
+	1    6150 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x156
+U 1 1 5A610370
+P 6600 5600
+F 0 "x156" H 6600 5850 60  0001 C CNN
+F 1 "RoutaCell" H 6600 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellRight" H 6600 5600 60  0001 C CNN
+F 3 "" H 6600 5600 60  0001 C CNN
+	1    6600 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x157
+U 1 1 5A610376
+P 7050 5600
+F 0 "x157" H 7050 5850 60  0001 C CNN
+F 1 "RoutaCell" H 7050 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellRight" H 7050 5600 60  0001 C CNN
+F 3 "" H 7050 5600 60  0001 C CNN
+	1    7050 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x158
+U 1 1 5A61037C
+P 7500 5600
+F 0 "x158" H 7500 5850 60  0001 C CNN
+F 1 "RoutaCell" H 7500 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellRight" H 7500 5600 60  0001 C CNN
+F 3 "" H 7500 5600 60  0001 C CNN
+	1    7500 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x159
+U 1 1 5A610382
+P 7950 5600
+F 0 "x159" H 7950 5850 60  0001 C CNN
+F 1 "RoutaCell" H 7950 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellRight" H 7950 5600 60  0001 C CNN
+F 3 "" H 7950 5600 60  0001 C CNN
+	1    7950 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RoutaCell x160
+U 1 1 5A610388
+P 8400 5600
+F 0 "x160" H 8400 5850 60  0001 C CNN
+F 1 "RoutaCell" H 8400 5350 60  0001 C CNN
+F 2 "footprints:RoutaCellBottomRight" H 8400 5600 60  0001 C CNN
+F 3 "" H 8400 5600 60  0001 C CNN
+	1    8400 5600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4050 4500
+Connection ~ 4500 4500
+Connection ~ 4950 4500
+Connection ~ 5400 4500
+Connection ~ 5850 4500
+Connection ~ 6300 4500
+Connection ~ 6750 4500
+Connection ~ 7200 4500
+Connection ~ 7650 4500
+Connection ~ 8100 4500
+Connection ~ 4050 5200
+Connection ~ 4500 5200
+Connection ~ 4950 5200
+Connection ~ 5400 5200
+Connection ~ 5850 5200
+Connection ~ 6300 5200
+Connection ~ 6750 5200
+Connection ~ 7200 5200
+Connection ~ 7650 5200
+Connection ~ 8100 5200
 $EndSCHEMATC
