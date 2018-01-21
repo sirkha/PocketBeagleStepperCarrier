@@ -1,4 +1,4 @@
-update=Thu 11 Jan 2018 04:37:43 AM MST
+update=Thu 18 Jan 2018 01:11:01 PM MST
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,4 @@ LibName33=modules
 LibName34=IC
 LibName35=dc-dc
 LibName36=allegro
+LibName37=mechanical
