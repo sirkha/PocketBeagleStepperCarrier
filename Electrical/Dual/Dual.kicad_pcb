@@ -1,12 +1,12 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 627)
-    (no_connects 3)
+    (links 628)
+    (no_connects 2)
     (area 29.695199 64.695199 170.304801 135.304801)
     (thickness 1.6)
     (drawings 284)
-    (tracks 5727)
+    (tracks 5728)
     (zones 0)
     (modules 190)
     (nets 157)
@@ -3107,7 +3107,8 @@
       (net 109 /Common/ain7))
     (pad 3 smd rect (at 0.4 0.625 90) (size 0.5 1.2) (drill (offset 0 0.3)) (layers F.Cu F.Paste F.Mask)
       (net 109 /Common/ain7))
-    (pad 6 smd rect (at 0.4 -0.625 270) (size 0.5 1.2) (drill (offset 0 0.3)) (layers F.Cu F.Paste F.Mask))
+    (pad 6 smd rect (at 0.4 -0.625 270) (size 0.5 1.2) (drill (offset 0 0.3)) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND))
     (pad 7 smd rect (at -0.4 -0.625 270) (size 0.5 1.2) (drill (offset 0 0.3)) (layers F.Cu F.Paste F.Mask)
       (net 124 "Net-(RN201-Pad7)"))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
@@ -8015,6 +8016,7 @@
   (via (at 48.946 91.872) (size 1.016) (drill 0.635) (layers F.Cu B.Cu) (net 0))
   (via (at 49.2 98.73) (size 1.016) (drill 0.635) (layers F.Cu B.Cu) (net 0))
   (segment (start 124.775023 101.32827) (end 124.775023 100.789838) (width 0.1524) (layer B.Cu) (net 0))
+  (segment (start 72.07 95.625) (end 72.07 96.425) (width 0.254) (layer F.Cu) (net 1))
   (segment (start 139.497 110.9728) (end 137.2872 110.9728) (width 0.254) (layer F.Cu) (net 1))
   (segment (start 137.2872 110.9728) (end 137.084 111.176) (width 0.254) (layer F.Cu) (net 1))
   (segment (start 142.418 111.43) (end 139.9542 111.43) (width 0.254) (layer B.Cu) (net 1))
