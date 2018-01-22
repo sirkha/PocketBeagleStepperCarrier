@@ -36,12 +36,12 @@ LIBS:IC
 LIBS:dc-dc
 LIBS:allegro
 LIBS:mechanical
-LIBS:Dual-cache
+LIBS:Quad-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -298,13 +298,13 @@ $EndComp
 $Comp
 L Conn_01x02 J208
 U 1 1 5A50A269
-P 6200 3250
-F 0 "J208" H 6200 3350 50  0000 C CNN
-F 1 "01x02" V 6300 3200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6200 3250 50  0001 C CNN
-F 3 "" H 6200 3250 50  0001 C CNN
-	1    6200 3250
-	0    1    1    0   
+P 6100 3250
+F 0 "J208" H 6100 3350 50  0000 C CNN
+F 1 "01x02" V 6200 3200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6100 3250 50  0001 C CNN
+F 3 "" H 6100 3250 50  0001 C CNN
+	1    6100 3250
+	0    -1   1    0   
 $EndComp
 $Comp
 L Screw_Terminal_01x04 J212
@@ -937,13 +937,13 @@ I2C
 $Comp
 L Conn_01x02 J211
 U 1 1 5A5787B1
-P 7150 3250
-F 0 "J211" H 7150 3350 50  0000 C CNN
-F 1 "01x02" V 7250 3200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7150 3250 50  0001 C CNN
-F 3 "" H 7150 3250 50  0001 C CNN
-	1    7150 3250
-	0    -1   1    0   
+P 7250 3250
+F 0 "J211" H 7250 3350 50  0000 C CNN
+F 1 "01x02" V 7350 3200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7250 3250 50  0001 C CNN
+F 3 "" H 7250 3250 50  0001 C CNN
+	1    7250 3250
+	0    1    1    0   
 $EndComp
 $Comp
 L R_Pack04 RN205
