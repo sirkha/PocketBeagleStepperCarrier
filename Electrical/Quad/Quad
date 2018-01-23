@@ -5,9 +5,9 @@ BILL OF MATERIALS
 
   - [ ] 2x SK34A
 
-- [ ] ACS712ELCTR-05B-T:
+- [ ] Fuse Small:
 
-  - [ ] 2x ACS712ELCTR-05B-T
+  - [ ] 2x Fuse
 
 - [ ] LM2576HVS-ADJ:
 
@@ -21,17 +21,13 @@ BILL OF MATERIALS
 
   - [ ] 1x FDG1024NZ
 
-- [ ] RoutaCell:
-
-  - [ ] 60x RoutaCell
-
 - [ ] Conn 01x03:
 
-  - [ ] 5x 01x03
+  - [ ] 9x 01x03
 
 - [ ] Conn 01x02:
 
-  - [ ] 7x 01x02
+  - [ ] 9x 01x02
 
 - [ ] USB OTG:
 
@@ -39,19 +35,19 @@ BILL OF MATERIALS
 
 - [ ] Pololu Breakout A4988:
 
-  - [ ] 2x Pololu Breakout A4988
+  - [ ] 4x Pololu Breakout A4988
 
 - [ ] Conn 01x04:
 
-  - [ ] 11x 01x04
+  - [ ] 7x 01x04
 
-- [ ] 24LC256:
+- [ ] ACS712ELCTR-05B-T:
 
-  - [ ] 1x 24LC256
+  - [ ] 2x ACS712ELCTR-05B-T
 
 - [ ] Pololu Breakout DRV8834:
 
-  - [ ] 2x Pololu Breakout DRV8834
+  - [ ] 4x Pololu Breakout DRV8834
 
 - [ ] PocketBeagle:
 
@@ -61,21 +57,21 @@ BILL OF MATERIALS
 
   - [ ] 1x 50K
 
-- [ ] Conn 01x03 Female:
-
-  - [ ] 10x 01x03
-
 - [ ] Pololu Breakout DRV8825:
 
-  - [ ] 2x Pololu Breakout DRV8825
+  - [ ] 4x Pololu Breakout DRV8825
 
-- [ ] Conn 02x04 Odd Even:
+- [ ] Mounting Hole PAD:
 
-  - [ ] 1x 02x04
+  - [ ] 4x Mounting Hole PAD
 
 - [ ] Pololu Breakout DRV8880:
 
-  - [ ] 2x Pololu Breakout DRV8880
+  - [ ] 4x Pololu Breakout DRV8880
+
+- [ ] 24LC256:
+
+  - [ ] 1x 24LC256
 
 - [ ] C Small:
 
@@ -83,17 +79,9 @@ BILL OF MATERIALS
 
   - [ ] 2x 1nF
 
-- [ ] Mounting Hole PAD:
-
-  - [ ] 4x Mounting Hole PAD
-
-- [ ] Fuse Small:
-
-  - [ ] 2x Fuse
-
 - [ ] D:
 
-  - [ ] 2x D
+  - [ ] 4x D
 
 - [ ] L:
 
@@ -101,19 +89,15 @@ BILL OF MATERIALS
 
 - [ ] R:
 
-  - [ ] 7x 12K
+  - [ ] 11x 12K
 
-  - [ ] 3x 1K2
+  - [ ] 5x 1K2
 
-  - [ ] 2x 22
+  - [ ] 4x 22
 
   - [ ] 1x 3.9K
 
   - [ ] 1x Rsel
-
-- [ ] Conn 02x05 Odd Even:
-
-  - [ ] 1x 02x05
 
 - [ ] Screw Terminal 01x04:
 
@@ -125,7 +109,7 @@ BILL OF MATERIALS
 
 - [ ] Jumper NO Small:
 
-  - [ ] 8x JPNO
+  - [ ] 4x JPNO
 
 - [ ] Screw Terminal 01x02:
 
@@ -133,11 +117,11 @@ BILL OF MATERIALS
 
 - [ ] FDC6420C:
 
-  - [ ] 3x FDC6420C
+  - [ ] 5x FDC6420C
 
 - [ ] Jumper NC Small:
 
-  - [ ] 11x JPNC
+  - [ ] 9x JPNC
 
 - [ ] CP1:
 
@@ -145,5 +129,5 @@ BILL OF MATERIALS
 
 - [ ] R Pack04:
 
-  - [ ] 12x 1K2
+  - [ ] 11x 1K2
 
