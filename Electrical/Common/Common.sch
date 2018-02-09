@@ -36,12 +36,12 @@ LIBS:IC
 LIBS:dc-dc
 LIBS:allegro
 LIBS:mechanical
-LIBS:Dual-cache
+LIBS:Quad-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -1066,28 +1066,6 @@ Text Label 2800 2250 0    30   ~ 0
 usb1_vbus
 Text Label 1300 3250 2    30   ~ 0
 usb1_drvvbus
-$Comp
-L Fuse_Small F202
-U 1 1 5A58792D
-P 4650 2650
-F 0 "F202" H 4650 2590 50  0000 C CNN
-F 1 "Fuse" H 4650 2710 50  0000 C CNN
-F 2 "SMD_Packages:SMD-1206_Pol" H 4650 2650 50  0001 C CNN
-F 3 "" H 4650 2650 50  0001 C CNN
-	1    4650 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Fuse_Small F201
-U 1 1 5A5884F0
-P 4050 3450
-F 0 "F201" H 4050 3390 50  0000 C CNN
-F 1 "Fuse" H 4050 3510 50  0000 C CNN
-F 2 "SMD_Packages:SMD-1206_Pol" H 4050 3450 50  0001 C CNN
-F 3 "" H 4050 3450 50  0001 C CNN
-	1    4050 3450
-	1    0    0    -1  
-$EndComp
 Text Label 4750 2950 0    60   ~ 0
 usb1_d-
 Text Label 4750 2850 0    60   ~ 0
@@ -1275,12 +1253,12 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG030
 U 1 1 5A592059
-P 4550 2650
-F 0 "#FLG030" H 4550 2725 50  0001 C CNN
-F 1 "PWR_FLAG" H 4550 2800 50  0000 C CNN
-F 2 "" H 4550 2650 50  0001 C CNN
-F 3 "" H 4550 2650 50  0001 C CNN
-	1    4550 2650
+P 4500 2650
+F 0 "#FLG030" H 4500 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 4500 2800 50  0000 C CNN
+F 2 "" H 4500 2650 50  0001 C CNN
+F 3 "" H 4500 2650 50  0001 C CNN
+	1    4500 2650
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1429,7 +1407,7 @@ F 3 "" H 10150 5000 50  0001 C CNN
 $EndComp
 Text Label 10150 4850 2    60   ~ 0
 usb1_5V
-Text Label 4550 2650 1    60   ~ 0
+Text Label 4500 2650 1    60   ~ 0
 usb1_5V
 Text Label 5300 2650 1    60   ~ 0
 usb1_vbus
@@ -1748,7 +1726,7 @@ Wire Wire Line
 	8200 5900 8200 5800
 Wire Wire Line
 	8200 5800 7800 5800
-Connection ~ 4550 2650
+Connection ~ 4500 2650
 Connection ~ 6950 5300
 Connection ~ 6700 5000
 Wire Wire Line
@@ -1837,9 +1815,9 @@ Wire Wire Line
 Wire Wire Line
 	3950 3250 3950 3450
 Wire Wire Line
-	4750 2650 5300 2650
+	4800 2650 5300 2650
 Wire Wire Line
-	4350 2650 4550 2650
+	4350 2650 4600 2650
 Wire Wire Line
 	2800 2150 2800 2250
 Wire Wire Line
@@ -2287,7 +2265,29 @@ Wire Wire Line
 Wire Wire Line
 	4550 4250 4350 4250
 Wire Wire Line
-	5000 4900 4650 4900
+	4650 4900 5000 4900
 NoConn ~ 4550 4550
 NoConn ~ 5000 5500
+$Comp
+L Ferrite_Bead_Small FB202
+U 1 1 5A7E3264
+P 4700 2650
+F 0 "FB202" H 4775 2700 50  0000 L CNN
+F 1 "120" H 4775 2600 50  0000 L CNN
+F 2 "SMD_Packages:SMD-1206_Pol" V 4630 2650 50  0001 C CNN
+F 3 "" H 4700 2650 50  0001 C CNN
+	1    4700 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ferrite_Bead_Small FB201
+U 1 1 5A7E3ED4
+P 4050 3450
+F 0 "FB201" V 4000 3550 50  0000 L CNN
+F 1 "120" V 3900 3450 50  0000 L CNN
+F 2 "SMD_Packages:SMD-1206_Pol" V 3980 3450 50  0001 C CNN
+F 3 "" H 4050 3450 50  0001 C CNN
+	1    4050 3450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
