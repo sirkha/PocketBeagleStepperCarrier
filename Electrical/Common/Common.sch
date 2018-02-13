@@ -36,12 +36,12 @@ LIBS:IC
 LIBS:dc-dc
 LIBS:allegro
 LIBS:mechanical
-LIBS:Quad-cache
+LIBS:Dual-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -1409,7 +1409,7 @@ Text Label 10150 4850 2    60   ~ 0
 usb1_5V
 Text Label 4500 2650 1    60   ~ 0
 usb1_5V
-Text Label 5300 2650 1    60   ~ 0
+Text Label 5450 2250 1    60   ~ 0
 usb1_vbus
 $Comp
 L R_Pack04 RN211
@@ -1815,9 +1815,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 3250 3950 3450
 Wire Wire Line
-	4800 2650 5300 2650
-Wire Wire Line
-	4350 2650 4600 2650
+	4350 2650 5300 2650
 Wire Wire Line
 	2800 2150 2800 2250
 Wire Wire Line
@@ -1826,8 +1824,6 @@ Wire Wire Line
 	4900 2000 4900 1950
 Wire Wire Line
 	4900 2450 4900 2400
-Wire Wire Line
-	5200 2200 5200 2650
 Wire Wire Line
 	2800 2600 3050 2600
 Connection ~ 6800 2600
@@ -2271,13 +2267,13 @@ NoConn ~ 5000 5500
 $Comp
 L Ferrite_Bead_Small FB202
 U 1 1 5A7E3264
-P 4700 2650
-F 0 "FB202" H 4775 2700 50  0000 L CNN
-F 1 "120" H 4775 2600 50  0000 L CNN
-F 2 "SMD_Packages:SMD-1206_Pol" V 4630 2650 50  0001 C CNN
-F 3 "" H 4700 2650 50  0001 C CNN
-	1    4700 2650
-	0    -1   -1   0   
+P 5200 2450
+F 0 "FB202" H 5275 2500 50  0000 L CNN
+F 1 "120" H 5275 2400 50  0000 L CNN
+F 2 "SMD_Packages:SMD-1206_Pol" V 5130 2450 50  0001 C CNN
+F 3 "" H 5200 2450 50  0001 C CNN
+	1    5200 2450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Ferrite_Bead_Small FB201
@@ -2288,6 +2284,13 @@ F 1 "120" V 3900 3450 50  0000 L CNN
 F 2 "SMD_Packages:SMD-1206_Pol" V 3980 3450 50  0001 C CNN
 F 3 "" H 4050 3450 50  0001 C CNN
 	1    4050 3450
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
+Wire Wire Line
+	5450 2250 5200 2250
+Connection ~ 5200 2250
+Wire Wire Line
+	5200 2650 5200 2550
+Wire Wire Line
+	5200 2200 5200 2350
 $EndSCHEMATC
