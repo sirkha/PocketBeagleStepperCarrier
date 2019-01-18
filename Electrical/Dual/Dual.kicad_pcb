@@ -81,7 +81,7 @@
     (grid_origin 100 100)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00000_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer false)
       (linewidth 0.100000)
@@ -100,11 +100,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 5)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory /home/jkha/))
+      (outputdirectory Gerber/))
   )
 
   (net 0 "")

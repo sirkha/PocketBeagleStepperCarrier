@@ -1,4 +1,4 @@
-update=Sat 13 Jan 2018 04:37:28 AM MST
+update=Thu 01 Mar 2018 10:16:41 AM MST
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,13 @@ LibName34=IC
 LibName35=dc-dc
 LibName36=allegro
 LibName37=mechanical
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
